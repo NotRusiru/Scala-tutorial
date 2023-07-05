@@ -18,6 +18,5 @@ object Q03 {
     val charToChange = name.charAt(index)
     val charModified = charToChange.toUpper
     name.patch(index, charModified.toString, 1)
-    //patch() - replace the character at the specified index with the modified character
   }
 }
